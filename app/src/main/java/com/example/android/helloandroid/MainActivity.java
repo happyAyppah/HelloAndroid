@@ -12,9 +12,6 @@ public class MainActivity extends AppCompatActivity {
     TextView call ;
     TextView website ;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
