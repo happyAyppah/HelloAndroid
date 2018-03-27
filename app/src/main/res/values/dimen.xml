@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginBottom">20dp</dimen>
+    <dimen name="marginTop">50dp</dimen>
+
+    <!--For Images-->
+    <dimen name="icon">35dp</dimen>
+    <dimen name="marginTopbetweenImage">20dp</dimen>
+    <dimen name="marginImageLeft">60dp</dimen>
+
+
+    <!--For Text-->
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="spacebetweenText">22dp</dimen>
+    <dimen name="marginFromImage">20dp</dimen>
+    <dimen name="locationSpaceText">12dp</dimen>
+
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/udacityanew" />
+
+        <ImageView
+            android:id="@+id/udacitymain"
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:layout_below="@id/cover"
+            android:layout_marginStart="@dimen/marginImageLeft"
+            android:layout_marginTop="@dimen/marginTop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/udacityname" />
+
+        <TextView
+            android:id="@+id/udacityname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cover"
+            android:layout_marginStart="@dimen/marginFromImage"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_toEndOf="@id/udacitymain"
+            android:text="@string/udacity"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize" />
+
+        <ImageView
+            android:id="@+id/location1"
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:layout_below="@id/udacitymain"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/marginImageLeft"
+            android:layout_marginTop="@dimen/marginTopbetweenImage"
+            android:adjustViewBounds="true"
+            android:src="@drawable/udacitylocation" />
+
+        <TextView
+            android:id="@+id/locationt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/udacityname1"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/marginFromImage"
+            android:layout_marginTop="@dimen/spacebetweenText"
+            android:layout_toEndOf="@id/location1"
+            android:text="@string/location1"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/locationt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/locationt1"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/marginFromImage"
+            android:layout_marginTop="@dimen/locationSpaceText"
+            android:layout_toEndOf="@id/location1"
+            android:text="@string/location2"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:layout_below="@id/locationt2"
+            android:layout_marginStart="@dimen/marginImageLeft"
+            android:layout_marginTop="@dimen/marginTopbetweenImage"
+            android:adjustViewBounds="true"
+            android:src="@drawable/udacitycall" />
+
+        <TextView
+            android:id="@+id/phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/locationt2"
+            android:layout_marginStart="@dimen/marginFromImage"
+            android:layout_marginTop="@dimen/spacebetweenText"
+            android:layout_toEndOf="@id/phone"
+            android:clickable="true"
+            android:autoLink="phone"
+            android:text="@string/phonenumber"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/textSize" />
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:layout_below="@id/phone"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginStart="@dimen/marginImageLeft"
+            android:layout_marginTop="@dimen/marginTopbetweenImage"
+            android:adjustViewBounds="true"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:layout_below="@id/phonenumber"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginStart="@dimen/marginFromImage"
+            android:layout_marginTop="@dimen/spacebetweenText"
+            android:layout_toEndOf="@id/web"
+            android:text="@string/website"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textSize" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
